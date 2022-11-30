@@ -18,7 +18,7 @@ app.set('views', './views') // specify the views directory
 app.set('view engine', 'madeline')
 
 app.get('/', (req, res) => { 
-  res.render('home', { title: 'Hey', message: 'One', content: 'Unique' })
+  res.render('home', { title: 'Hello', message: 'One', content: 'Unique' })
 })
 app.get('/one', (req, res) => {
     res.render('away', { title: 'Hey', message: 'Two', content: 'Thats what you are' })
@@ -50,7 +50,7 @@ app.get('/one', (req, res) => {
     res.render('away', { title: 'Hey', message: 'Nine', content: 'Forever Im that girl' })
   })
   app.get('/nine', (req, res) => {
-    res.render('home', { title: 'Hey', message: 'Ten', content: 'Feed you diamonds and pearls' })
+    res.render('home', { title: 'Hey', message: 'Ten', content: 'Feed you diamonds and pearls!!' })
   })
 
   
